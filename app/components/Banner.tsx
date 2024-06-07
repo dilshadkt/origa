@@ -3,7 +3,7 @@ import bannerImage from "@/public/banner (2).jpg";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <section className="relative text-black bg-[url(/banner2.jpg)] bg-cover bg-center bg-no-repeat">
+    <section className="relative text-black bg-cover bg-center bg-no-repeat">
       <Image
         src={bannerImage}
         alt=""
