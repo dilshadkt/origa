@@ -6,7 +6,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="bg-gray-100">
+    <section id="industries" className="bg-gray-100">
       <div className="container py-16  max-w-screen-xl mx-auto  m-auto px-6 text-gray-500 md:px-12 xl:px-0">
         <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl">
           Your Perfect Business Solution

@@ -13,7 +13,7 @@ const Banner = () => {
 
       <div className="relative mx-auto max-w-screen-xl  px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-left ">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
+          <h1 className="text-3xl font-extrabold sm:text-5xl text-gray-800">
             Fusing Creativity,
             <strong className="block font-extrabold text-rose-700 leading-[70px]">
               {" "}
@@ -21,7 +21,7 @@ const Banner = () => {
             </strong>
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed sm:leading-9">
+          <p className="mt-4 max-w-lg sm:text-xl/relaxed sm:leading-9 text-gray-900">
             At <strong>DELTA ORIGA</strong>, we blend creativity with strategic
             brilliance to push the boundaries of what's possible. With a
             commitment to excellence, we approach every project with innovative
