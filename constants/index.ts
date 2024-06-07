@@ -55,3 +55,58 @@ export const navabar = [
     direction: "#works",
   },
 ];
+
+export const industries = [
+  {
+    icon: "/node.png",
+    title: "Node Js",
+  },
+  {
+    icon: "/flutter.png",
+    title: "Flutter",
+  },
+  {
+    icon: "/laravel.png",
+    title: "Laravel",
+  },
+  {
+    icon: "/android.png",
+    title: "Android",
+  },
+  {
+    icon: "/python.png",
+    title: "Python",
+  },
+  {
+    icon: "/magento.png",
+    title: "Magento",
+  },
+  {
+    icon: "/ios.png",
+    title: "Ios",
+  },
+  {
+    icon: "/wordpress.png",
+    title: "Wordpress",
+  },
+];
+
+export const blogs = [
+  {
+    image: "/blog.jpg",
+    title:
+      "Understanding the Distinction Between Web Development and Web Design",
+  },
+  {
+    image: "/blog1.jpg",
+    title: "Comprehensive Guide to Web Hosting: Types and Services Explained",
+  },
+  {
+    image: "/blog2.jpg",
+    title: "Essential SEO Insights Every Entrepreneur Should Have",
+  },
+  {
+    image: "/blog3.jpg",
+    title: "The Key Differences Between Front-End and Back-End Web Development",
+  },
+];

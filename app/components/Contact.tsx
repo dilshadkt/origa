@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="mt-4 md:mt-8">
                   <p className="text-gray-800 text-base font-medium">Name</p>
                   <input
-                    className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
+                    className="mt-3 text-base border border-gray-300 rounded-xl w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none  py-5 pl-4 text-gray-800"
                     type="text"
                     placeholder="Justin Timberlake"
                   />
@@ -79,7 +79,7 @@ const Contact = () => {
                     Email Address
                   </p>
                   <input
-                    className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black py-5 pl-4 text-gray-800"
+                    className="mt-3 text-base border border-gray-300 rounded-xl w-11/12 lg:w-full xl:w-10/12 hover:border-indigo-600 focus:border-indigo-600 focus:outline-none  py-5 pl-4 text-gray-800"
                     type="email"
                     placeholder="example@mail.com"
                   />
@@ -87,13 +87,13 @@ const Contact = () => {
                 <div className="mt-4 md:mt-8">
                   <p className="text-gray-800 text-base font-medium">Message</p>
                   <textarea
-                    className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-indigo-600 focus:border-indigo-600 focus:outline-none border-black xl:h-40 py-5 pl-4 text-gray-800"
+                    className="mt-3 text-base border border-gray-300 rounded-xl w-11/12 lg:w-full xl:w-10/12 resize-none hover:border-indigo-600 focus:border-indigo-600 focus:outline-none  xl:h-40 py-5 pl-4 text-gray-800"
                     placeholder="Write us something..."
                     defaultValue={""}
                   />
                 </div>
-                <div className="py-5">
-                  <button className="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">
+                <div className="py-5 mr-16">
+                  <button className="py-3 md:py-5 px-5 w-full rounded-xl md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">
                     Send
                   </button>
                 </div>

@@ -23,6 +23,9 @@ const About = () => {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
+              <h5 className="my-4 text-base md:text-lg text-gray-600 ">
+                About Us
+              </h5>
               <h2 className="text-2xl capitalize  sm:leading-[42px] font-semibold sm:text-3xl">
                 Origa is a community of developers united by a shared vision to
                 revolutionize the IT industry.

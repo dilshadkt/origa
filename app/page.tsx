@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Industries from "./components/Industries";
 import Services from "./components/Services";
 import Stat from "./components/Stat";
 import Testimonial from "./components/Testimonial";
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Services />
       <Banner />
+      <Industries />
       <Features />
       <Stat />
       <ClientLogo />
