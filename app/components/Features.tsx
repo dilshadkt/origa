@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Features = () => {
@@ -11,17 +12,21 @@ const Features = () => {
           <div className="hidden md:flex justify-center w-full">
             <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
               <div aria-label="sign up" role="img">
-                <img
+                <Image
                   className="focus:outline-none mt-10"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg"
+                  src="/step1.svg"
                   alt="how it work"
+                  width={120}
+                  height={120}
                 />
               </div>
               <div aria-label={"2"} role="img">
-                <img
+                <Image
                   className="focus:outline-none mt-24"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg"
+                  src="/two.svg"
                   alt=""
+                  width={50}
+                  height={50}
                 />
               </div>
               <div className="flex mt-12 flex-col items-center lg:items-end md:w-8/12">
@@ -34,10 +39,12 @@ const Features = () => {
                 </h2>
               </div>
               <div aria-label="transactions" role="img">
-                <img
+                <Image
                   className="focus:outline-none mt-24"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg"
+                  src="/step2.svg"
                   alt=""
+                  width={120}
+                  height={120}
                 />
               </div>
               <img
@@ -48,10 +55,7 @@ const Features = () => {
             </div>
             <div className="flex flex-col items-center md:items-start md:pl-12 lg:border-gray-400 mt-20 md:mt-0 md:w-1/2">
               <div aria-label={"1"} role="img">
-                <img
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg"
-                  alt=""
-                />
+                <Image src={"/one.svg"} alt="one" width={50} height={50} />
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
@@ -63,17 +67,21 @@ const Features = () => {
                 </h2>
               </div>
               <div aria-label="wallet" role="img">
-                <img
-                  className="focus:outline-none mt-32"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg"
+                <Image
+                  className="focus:outline-none mt-24"
+                  src="/step2.svg"
                   alt=""
+                  width={120}
+                  height={120}
                 />
               </div>
               <div aria-label={"3"} role="img">
-                <img
+                <Image
                   className="focus:outline-none mt-20"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg"
+                  src="/three.svg"
                   alt=""
+                  width={50}
+                  height={50}
                 />
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
@@ -88,15 +96,15 @@ const Features = () => {
             </div>
           </div>
           <div className="md:hidden flex flex-col items-center w-full">
-            <img
-              className="focus:outline-none my-10"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg"
+            <Image
+              className="focus:outline-none mt-10"
+              src="/step1.svg"
               alt="how it work"
+              width={120}
+              height={120}
             />
-            <img
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg"
-              alt=""
-            />
+            <Image src={"/one.svg"} alt="one" width={50} height={50} />
+
             <div className="mt-10">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
                 SignUp for an Account
@@ -106,15 +114,14 @@ const Features = () => {
                 best .
               </h2>
             </div>
-            <img
-              className="focus:outline-none my-10"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg"
+            <Image
+              className="focus:outline-none mt-24"
+              src="/step2.svg"
               alt=""
+              width={120}
+              height={120}
             />
-            <img
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg"
-              alt=""
-            />
+            <Image src={"/two.svg"} alt="one" width={50} height={50} />
             <div className="mt-10">
               <h1 className="text-xl tracking-wide text-center leading-5 font-bold text-gray-900">
                 Create a Wallet
@@ -124,15 +131,14 @@ const Features = () => {
                 comfortable with. Paypal, Visa and more
               </h2>
             </div>
-            <img
-              className="focus:outline-none my-10"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg"
+            <Image
+              className="focus:outline-none mt-24"
+              src="/step2.svg"
               alt=""
+              width={120}
+              height={120}
             />
-            <img
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg"
-              alt=""
-            />
+            <Image src={"/three.svg"} alt="one" width={50} height={50} />
             <div className="flex mt-10 flex-col items-center md:items-start md:w-8/12">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
                 Start your Transactions

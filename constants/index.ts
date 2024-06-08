@@ -1,9 +1,9 @@
 export const services = [
   {
-    title: "Digital Marketing",
-    image: "/digital.svg",
+    title: "Website Designing",
+    image: "/web.svg",
     descritpion:
-      "Elevate your online presence with our creative branding. We go beyond the ordinary to make your brand truly stand out.",
+      "Transform your digital presence with stunning designs, turning your dreams into successful realities and building a strong online presence.",
   },
   {
     title: "Mobile App Development",
@@ -17,12 +17,7 @@ export const services = [
     descritpion:
       "Our SEO strategies are customized to align with your unique business needs, ensuring optimal performance and growth.",
   },
-  {
-    title: "Website Designing",
-    image: "/web.svg",
-    descritpion:
-      "Transform your digital presence with stunning designs, turning your dreams into successful realities and building a strong online presence.",
-  },
+
   {
     title: "Ecommerce Development",
     image: "ecommerce.svg",
@@ -34,6 +29,12 @@ export const services = [
     image: "/erp.jpg",
     descritpion:
       "Expert guidance throughout the ERP development process, including planning, analysis, implementation, and ongoing support to ensure smooth operations.",
+  },
+  {
+    title: "Digital Marketing",
+    image: "/digital.svg",
+    descritpion:
+      "Elevate your online presence with our creative branding. We go beyond the ordinary to make your brand truly stand out.",
   },
 ];
 

@@ -30,6 +30,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .btn {
+    @apply bg-gradient-to-r from-btn to-btnEnd hover:bg-gradient-to-l hover:from-btnEnd  hover:to-btn transition-all duration-700;
+  }
 }
 html {
   scroll-behavior: smooth;

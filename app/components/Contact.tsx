@@ -27,7 +27,7 @@ const Contact = () => {
                     business success
                   </h2>
                   <div className="mt-4 md:mt-8">
-                    <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                    <h2 className="text-sm md:text-base text-btn font-semibold">
                       Address
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
@@ -35,22 +35,22 @@ const Contact = () => {
                     </h2>
                   </div>
                   <div className="mt-4 md:mt-8">
-                    <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                    <h2 className="text-sm md:text-base text-btn font-semibold">
                       Contact
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      +92 051 4567890 (Phone)
+                      +91 8129164869 (Phone)
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      +92 123 4567890 (Cell)
+                      +91 8129164869 (Cell)
                     </h2>
                   </div>
                   <div className="mt-4 md:mt-8">
-                    <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                    <h2 className="text-sm md:text-base text-btn font-semibold">
                       Email
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      alphasquad@example.com
+                      origanetworksllp@gmail.com
                     </h2>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
           <div className="w-full lg:w-1/2   xl:pt-10 lg:pl-24">
             <div className="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
-              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-indigo-700">
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-btn">
                 Let’s Talk
               </h1>
               <div className="w-full 2xl:w-8/12 mt-3">
@@ -93,7 +93,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="py-5 mr-16">
-                  <button className="py-3 md:py-5 px-5 w-full rounded-xl md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">
+                  <button className="py-3 md:py-3  px-5 w-full rounded-xl md:px-10 btn text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">
                     Send
                   </button>
                 </div>

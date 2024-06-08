@@ -8,6 +8,7 @@ import {
   CarouselProvider,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import Image from "next/image";
 const Testimonial = () => {
   return (
     <div className="bg-white">
@@ -41,9 +42,11 @@ const Testimonial = () => {
                       className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
                     />
                     <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
-                      <img
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg"
-                        alt="commas"
+                      <Image
+                        src={"/qutes.svg"}
+                        alt="comma"
+                        width={20}
+                        height={20}
                       />
                     </div>
                   </div>

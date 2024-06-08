@@ -46,7 +46,7 @@ const Blogs = () => {
                   {blog.title}
                 </h2>
 
-                <span className="font-semibold text-indigo-300">Read more</span>
+                <span className="font-semibold text-btn">Read more</span>
               </div>
             </a>
           ))}
