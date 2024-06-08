@@ -2,7 +2,11 @@ import { industries } from "@/constants";
 import { nanoid } from "nanoid";
 import Image from "next/image";
 import React from "react";
-
+import { MotiionDiv } from "./shared/MotionDiv";
+const serviceVarients = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+};
 const Industries = () => {
   return (
     <section
@@ -17,8 +21,17 @@ const Industries = () => {
         traffic by 50%, generate more leads, and increase sales.
       </p>
       <div className="max-w-screen-xl my-10 mx-auto grid grid-cols-1 px-5 md:px-0 md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
-        {industries.map((item) => (
-          <div
+        {industries.map((item, index) => (
+          <MotiionDiv
+            variants={serviceVarients}
+            initial="hidden"
+            whileInView="visible"
+            transition={{
+              delay: 0.15 * index,
+              ease: "easeInOut",
+              duration: 0.25,
+            }}
+            viewport={{ once: true }}
             key={nanoid()}
             className="h-[100px] hover:-translate-y-2 transition-all duration-700 rounded-full bg-gradient-to-r from-gray-100 to-gray-50/50 p-3 text-black flex items-center justify-between"
           >
@@ -34,7 +47,7 @@ const Industries = () => {
             <span className="flex items-center justify-start pl-5 font-semibold text-gray-900 flex-1">
               {item.title}
             </span>
-          </div>
+          </MotiionDiv>
         ))}
       </div>
     </section>

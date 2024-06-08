@@ -2,7 +2,15 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
-
+import { MotiionDiv } from "./shared/MotionDiv";
+export const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
+const aboutVarients = {
+  hidden: { opacity: 0, y: 200 },
+  visible: { opacity: 1, y: 0 },
+};
 const Hero = () => {
   const heroImage = ["/hero.jpg", "/hero2.jpg", "/hero3.jpg", "/hero4.jpg"];
   const [image, setImage] = useState(heroImage[0]);
@@ -52,7 +60,18 @@ const Hero = () => {
           </div> */}
         </div>
         <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40">
-          <div className="relative sm:w-2/3 w-11/12">
+          <MotiionDiv
+            variants={aboutVarients}
+            initial="hidden"
+            whileInView="visible"
+            transition={{
+              // delay: 0.15,
+              ease: "easeInOut",
+              duration: 1.25,
+            }}
+            viewport={{ once: true }}
+            className="relative sm:w-2/3 w-11/12"
+          >
             <Image
               src="/bg.png"
               alt="Sample Page"
@@ -61,7 +80,7 @@ const Hero = () => {
               height={1500}
               quality={100}
             />
-          </div>
+          </MotiionDiv>
         </div>
       </div>
     </div>

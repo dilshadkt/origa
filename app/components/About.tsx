@@ -1,13 +1,29 @@
 import Image from "next/image";
 import React from "react";
+import { MotiionDiv } from "./shared/MotionDiv";
 
+const aboutVarients = {
+  hidden: { opacity: 0, x: -200 },
+  visible: { opacity: 1, x: 0 },
+};
 const About = () => {
   return (
     <section id="about" className="bg-white text-black">
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
-            <div className="relative h-64 sm:h-80 lg:h-full">
+            <MotiionDiv
+              variants={aboutVarients}
+              initial="hidden"
+              whileInView="visible"
+              transition={{
+                delay: 0.15,
+                ease: "easeInOut",
+                duration: 0.75,
+              }}
+              viewport={{ once: true }}
+              className="relative h-64 sm:h-80 lg:h-full"
+            >
               <Image
                 width={1200}
                 height={1200}
@@ -16,7 +32,7 @@ const About = () => {
                 src="/about.jpg"
                 className="absolute inset-0 h-full w-full object-cover rounded-r-lg"
               />
-            </div>
+            </MotiionDiv>
           </div>
 
           <div className="relative flex items-center bg-gray-100">

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.2.10",
     "nanoid": "^5.0.7",
     "next": "14.2.3",
     "pure-react-carousel": "^1.30.1",

@@ -1,6 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import { MotiionDiv } from "./shared/MotionDiv";
 
+const aboutVarients = {
+  hidden: { opacity: 0, x: -200 },
+  visible: { opacity: 1, x: 0 },
+};
+const aboutVarientsRight = {
+  hidden: { opacity: 0, x: 200 },
+  visible: { opacity: 1, x: 0 },
+};
 const Features = () => {
   return (
     <div className="overflow-y-hidden bg-gray-100">
@@ -11,7 +20,19 @@ const Features = () => {
         <div className="md:mt-24 f-f-p">
           <div className="hidden md:flex justify-center w-full">
             <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
-              <div aria-label="sign up" role="img">
+              <MotiionDiv
+                variants={aboutVarients}
+                initial="hidden"
+                whileInView="visible"
+                transition={{
+                  delay: 0.15,
+                  ease: "easeInOut",
+                  duration: 0.75,
+                }}
+                viewport={{ once: true }}
+                aria-label="sign up"
+                role="img"
+              >
                 <Image
                   className="focus:outline-none mt-10"
                   src="/step1.svg"
@@ -19,7 +40,7 @@ const Features = () => {
                   width={120}
                   height={120}
                 />
-              </div>
+              </MotiionDiv>
               <div aria-label={"2"} role="img">
                 <Image
                   className="focus:outline-none mt-24"
@@ -38,7 +59,19 @@ const Features = () => {
                   comfortable with. Paypal, Visa and more{" "}
                 </h2>
               </div>
-              <div aria-label="transactions" role="img">
+              <MotiionDiv
+                variants={aboutVarients}
+                initial="hidden"
+                whileInView="visible"
+                transition={{
+                  delay: 0.15,
+                  ease: "easeInOut",
+                  duration: 0.75,
+                }}
+                viewport={{ once: true }}
+                aria-label="transactions"
+                role="img"
+              >
                 <Image
                   className="focus:outline-none mt-24"
                   src="/step2.svg"
@@ -46,7 +79,7 @@ const Features = () => {
                   width={120}
                   height={120}
                 />
-              </div>
+              </MotiionDiv>
               <img
                 className="hidden md:block absolute right-0 top-0 -mt-2 -mr-1"
                 src="https://cdn.tuk.dev/assets/components/111220/Fs7/line.png"
@@ -66,7 +99,19 @@ const Features = () => {
                   the best .{" "}
                 </h2>
               </div>
-              <div aria-label="wallet" role="img">
+              <MotiionDiv
+                variants={aboutVarientsRight}
+                initial="hidden"
+                whileInView="visible"
+                transition={{
+                  delay: 0.15,
+                  ease: "easeInOut",
+                  duration: 0.75,
+                }}
+                viewport={{ once: true }}
+                aria-label="wallet"
+                role="img"
+              >
                 <Image
                   className="focus:outline-none mt-24"
                   src="/step2.svg"
@@ -74,7 +119,7 @@ const Features = () => {
                   width={120}
                   height={120}
                 />
-              </div>
+              </MotiionDiv>
               <div aria-label={"3"} role="img">
                 <Image
                   className="focus:outline-none mt-20"
