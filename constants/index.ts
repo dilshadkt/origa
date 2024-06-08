@@ -52,7 +52,7 @@ export const navabar = [
     direction: "#industries",
   },
   {
-    title: "works",
+    title: "Works",
     direction: "#works",
   },
 ];
