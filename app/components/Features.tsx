@@ -52,11 +52,11 @@ const Features = () => {
               </div>
               <div className="flex mt-12 flex-col items-center lg:items-end md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  Create a Wallet
+                  Plan and Develop
                 </h1>
                 <h2 className="focus:outline-none text-gray-500 mt-3 pl-3 text-center md:text-right text-base leading-6 tracking-wide">
-                  Create a wallet by linking a payment method that you’re
-                  comfortable with. Paypal, Visa and more{" "}
+                  Work closely with our expert team to plan and customize your
+                  project.
                 </h2>
               </div>
               <MotiionDiv
@@ -92,11 +92,11 @@ const Features = () => {
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  SignUp for an Account
+                  Get Started
                 </h1>
                 <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">
-                  Sign up on our website and opt for a program that suits you
-                  the best .{" "}
+                  Tell us about your project and goals, and we'll help you
+                  choose the best service package for your needs.
                 </h2>
               </div>
               <MotiionDiv
@@ -131,11 +131,11 @@ const Features = () => {
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  Start your Transactions
+                  Launch and Grow
                 </h1>
                 <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">
-                  Start transactions right away. No more complicated process for
-                  anything else.
+                  Our team will continuously optimize and update your services
+                  to ensure maximum performance and growth.
                 </h2>
               </div>
             </div>
