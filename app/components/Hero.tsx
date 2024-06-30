@@ -12,7 +12,7 @@ const aboutVarients = {
   visible: { opacity: 1, y: 0 },
 };
 const Hero = () => {
-  const heroImage = ["/hero.jpg", "/hero2.jpg", "/hero3.jpg", "/hero4.jpg"];
+  const heroImage = ["/hero.jpg", "/hero3.jpg", "/hero4.jpg"];
   const [image, setImage] = useState(heroImage[0]);
   const [currentImage, setCurrentImage] = useState(0);
   useEffect(() => {
@@ -59,7 +59,7 @@ const Hero = () => {
             </h1>
           </div> */}
         </div>
-        <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40">
+        {/* <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40">
           <MotiionDiv
             variants={aboutVarients}
             initial="hidden"
@@ -81,7 +81,7 @@ const Hero = () => {
               quality={100}
             />
           </MotiionDiv>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+"use client";
 import { navabar } from "@/constants";
 import { nanoid } from "nanoid";
 import Image from "next/image";
@@ -6,7 +7,7 @@ import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  useEffect(() => {});
+
   return (
     <nav className="w-full absolute top-0 z-30  ">
       <div className="container mx-auto   px-5 md:px-10 flex items-center justify-between">

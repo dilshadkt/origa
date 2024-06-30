@@ -25,7 +25,6 @@ export default function Home() {
       <Blogs />
       <Testimonial />
       <Contact />
-      <Footer />
     </>
   );
 }
