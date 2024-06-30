@@ -20,7 +20,7 @@ const Industries = () => {
         From Web Design and Development to Digital Marketing, we'll boost your
         traffic by 50%, generate more leads, and increase sales.
       </p>
-      <div className="max-w-screen-xl my-10 mx-auto grid grid-cols-1 px-5 md:px-0 md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
+      <div className="max-w-screen-xl my-10 mx-auto grid grid-cols-1 px-5  md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
         {industries.map((item, index) => (
           <MotiionDiv
             variants={serviceVarients}

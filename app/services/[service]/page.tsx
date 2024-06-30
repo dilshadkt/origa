@@ -28,35 +28,48 @@ const page = ({ params: { service } }: { params: { service: string } }) => {
           </div>
           <div className="absolute   w-full bottom-12">
             <div className=" w-full max-w-screen-xl mx-auto">
-              <h3 className="text-[40px] font-light text-white/95">
+              <h3 className="hidden md:blocktext-[40px] font-light text-white/95 px-5">
                 {decodeURIComponent(service)}
               </h3>
             </div>
           </div>
         </div>
-
-        <div className="text-gray-800  max-w-screen-xl mx-auto grid grid-cols-2 my-16">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`${serviceContent.image}`}
-              alt={serviceContent.title}
-              width={400}
-              height={400}
-              className="hover:scale-105 transition-all duration-300"
-            />
+        {/* CONTENTE  */}
+        <div className="max-w-screen-xl mx-auto px-6  my-16 text-gray-800  ">
+          <div className="grid grid-cols-1 gap-6 md:gap-0 md:grid-cols-2">
+            <div className="flex items-center justify-center">
+              <Image
+                src={`${serviceContent.image}`}
+                alt={serviceContent.title}
+                width={400}
+                height={400}
+                className="hover:scale-105 transition-all duration-300"
+              />
+            </div>
+            <div>
+              <h5 className="text-3xl font-medium text-btn">
+                {decodeURIComponent(service)}
+              </h5>
+              <p className="mt-5 md:text-lg leading-[35px] md:mr-10 text-gray-700">
+                {serviceContent.content}
+              </p>
+              <Link href={"/#contact"}>
+                <button className="py-3 px-5 border border-green-900   mt-5 rounded-lg hover:bg-black hover:text-white transition-all duration-300">
+                  Let's Talk
+                </button>
+              </Link>
+            </div>
           </div>
-          <div>
-            <h5 className="text-2xl font-medium">
-              {decodeURIComponent(service)}
-            </h5>
-            <p className="mt-5 text-lg leading-[35px] mr-10 text-gray-700">
-              {serviceContent.content}
-            </p>
-            <Link href={"/#contact"}>
-              <button className="py-3 px-5 border border-green-900   mt-5 rounded-lg hover:bg-black hover:text-white transition-all duration-300">
-                Let's Talk
-              </button>
-            </Link>
+          <div className="mt-16 ">
+            <h4 className="my-5 text-3xl font-medium text-btn">Platforms</h4>
+            <div className="  gap-5 grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {serviceContent.subData?.map((item) => (
+                <div className="bg-gray-50 shadow-md py-9 rounded-xl  hover:translate-y-2 transition-all duration-300  p-4">
+                  <h5 className="text-lg font-medium">{item.title}</h5>
+                  <p className="mt-3 text-gray-700">{item.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

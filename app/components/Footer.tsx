@@ -57,7 +57,7 @@ const Footer = () => {
 
           <li>
             <Link
-              href="#"
+              href="https://www.instagram.com/origanetworks?igsh=dHNsbnVocHdheXM3&utm_source=qr"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-gray-700/75"

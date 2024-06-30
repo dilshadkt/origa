@@ -7,7 +7,7 @@ import React from "react";
 const Services = ({ isMain = true }: { isMain?: boolean }) => {
   return (
     <section id="expertice" className="bg-gray-100">
-      <div className="container py-16  max-w-screen-xl mx-auto  m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+      <div className="container py-16  max-w-screen-xl mx-auto  m-auto px-6 text-gray-500 ">
         {isMain ? (
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl">
             Your Perfect Business Solution
@@ -18,7 +18,7 @@ const Services = ({ isMain = true }: { isMain?: boolean }) => {
           </h2>
         )}
 
-        <div className="mx-auto  pt-10  grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
+        <div className="mx-auto  pt-10   grid gap-6  grid-cols-1 md:grid-cols-2  lg:w-full lg:grid-cols-3 ">
           {services.map((service) => (
             <Link
               href={`/services/${service.title}`}
