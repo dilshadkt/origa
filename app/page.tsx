@@ -10,6 +10,7 @@ import Industries from "./components/Industries";
 import Services from "./components/Services";
 import Stat from "./components/Stat";
 import Testimonial from "./components/Testimonial";
+import Whatsapp from "./components/Whatsapp";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Blogs />
       <Testimonial />
       <Contact />
+      <Whatsapp />
     </>
   );
 }

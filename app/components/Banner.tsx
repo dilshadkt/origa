@@ -22,7 +22,7 @@ const Banner = () => {
           </h1>
 
           <p className="mt-4 max-w-lg sm:text-xl/relaxed sm:leading-9 text-gray-900">
-            At <strong>DELTA ORIGA</strong>, we blend creativity with strategic
+            At <strong> ORIGA</strong>, we blend creativity with strategic
             brilliance to push the boundaries of what's possible. With a
             commitment to excellence, we approach every project with innovative
             thinking and a dedication to success from start to finish.
