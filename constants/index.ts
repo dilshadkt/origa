@@ -3,7 +3,7 @@ import { Content } from "next/font/google";
 export const services = [
   {
     title: "Website Designing",
-    image: "/web.svg",
+    image: "/seo.svg",
     Content:
       "Just as a warrior needs impeccable strategy and skills to win a battle, your business needs an outstanding website to thrive in the digital arena. At Origa Networks, we specialize in crafting visually stunning and highly functional websites tailored to your unique business needs. From responsive designs to intuitive user experiences, our expert team ensures your online presence captivates and engages your audience, setting you apart from the competition",
     subData: [
@@ -55,7 +55,7 @@ export const services = [
   },
   {
     title: "Search Engine Optimization",
-    image: "/seo.svg",
+    image: "/web.svg",
     content:
       "Just as strategic positioning is crucial in a battle, SEO is vital for your online visibility. At Origa Networks, we deploy cutting-edge SEO strategies to improve your search engine rankings and drive organic traffic to your website. Our comprehensive approach includes keyword research, on-page optimization, link building, and content creation, ensuring your business ranks highly and attracts the right audience.",
     subData: [

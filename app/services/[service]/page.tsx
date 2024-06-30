@@ -63,8 +63,11 @@ const page = ({ params: { service } }: { params: { service: string } }) => {
           <div className="mt-16 ">
             <h4 className="my-5 text-3xl font-medium text-btn">Platforms</h4>
             <div className="  gap-5 grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {serviceContent.subData?.map((item) => (
-                <div className="bg-gray-50 shadow-md py-9 rounded-xl  hover:translate-y-2 transition-all duration-300  p-4">
+              {serviceContent.subData?.map((item, index) => (
+                <div
+                  key={index}
+                  className="bg-gray-50 shadow-md py-9 rounded-xl  hover:translate-y-2 transition-all duration-300  p-4"
+                >
                   <h5 className="text-lg font-medium">{item.title}</h5>
                   <p className="mt-3 text-gray-700">{item.desc}</p>
                 </div>

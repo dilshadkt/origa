@@ -152,11 +152,11 @@ const Features = () => {
 
             <div className="mt-10">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
-                SignUp for an Account
+                Get Started
               </h1>
               <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">
-                Sign up on our website and opt for a program that suits you the
-                best .
+                Tell us about your project and goals, and we'll help you choose
+                the best service package for your needs.
               </h2>
             </div>
             <Image
@@ -169,11 +169,11 @@ const Features = () => {
             <Image src={"/two.svg"} alt="one" width={50} height={50} />
             <div className="mt-10">
               <h1 className="text-xl tracking-wide text-center leading-5 font-bold text-gray-900">
-                Create a Wallet
+                Plan and Develop
               </h1>
               <h2 className="text-gray-500 mt-3 pl-3 text-center text-base leading-6 tracking-wide">
-                Create a wallet by linking a payment method that you’re
-                comfortable with. Paypal, Visa and more
+                Work closely with our expert team to plan and customize your
+                project.
               </h2>
             </div>
             <Image
@@ -186,11 +186,11 @@ const Features = () => {
             <Image src={"/three.svg"} alt="one" width={50} height={50} />
             <div className="flex mt-10 flex-col items-center md:items-start md:w-8/12">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
-                Start your Transactions
+                Launch and Grow
               </h1>
               <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">
-                Start transactions right away. No more complicated process for
-                anything else.
+                Our team will continuously optimize and update your services to
+                ensure maximum performance and growth.
               </h2>
             </div>
           </div>
