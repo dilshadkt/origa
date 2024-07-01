@@ -54,10 +54,10 @@ export const services = [
       "Seamlessly and efficiently elevate your business with our mobile app solutions, promising extensive growth and enhanced performance.",
   },
   {
-    title: "Search Engine Optimization",
-    image: "/web.svg",
+    title: "AMC",
+    image: "/amc.svg",
     content:
-      "Just as strategic positioning is crucial in a battle, SEO is vital for your online visibility. At Origa Networks, we deploy cutting-edge SEO strategies to improve your search engine rankings and drive organic traffic to your website. Our comprehensive approach includes keyword research, on-page optimization, link building, and content creation, ensuring your business ranks highly and attracts the right audience.",
+      "Just as strategic positioning is crucial in a battle, SEO is vital for your online visibility. At Origa Networks, we deploy cutting-edge SEO strategies to improve your search engine rankings and drive organic traffic to your website. Our comprehensive approach includes keyword research, on-page optimization, link building, and content creation, ensuring your business ranks highly and attracts the right audience.",
     subData: [
       {
         title: "Keyword Research",
@@ -77,7 +77,7 @@ export const services = [
       },
     ],
     descritpion:
-      "Our SEO strategies are customized to align with your unique business needs, ensuring optimal performance and growth.",
+      "Our AMC service provides proactive and reactive support for your web applications, mobile apps, ERP solutions, and other IT products. Our experts ensure your systems run smoothly, maintaining optimal performance and avoiding downtime.",
   },
 
   {
@@ -133,12 +133,12 @@ export const services = [
       "Expert guidance throughout the ERP development process, including planning, analysis, implementation, and ongoing support to ensure smooth operations.",
   },
   {
-    title: "Digital Marketing",
+    title: "Digital marketing and branding",
     image: "/digital.svg",
     content:
       "In the ever-evolving digital landscape, effective marketing is the key to staying ahead. Origa Networks provides comprehensive digital marketing services, including social media management, content marketing, PPC advertising, and email campaigns. Our strategic approach ensures your brand message reaches the right audience, enhancing your online presence and driving business growth.",
     descritpion:
-      "Elevate your online presence with our creative branding. We go beyond the ordinary to make your brand truly stand out.",
+      "Our experienced Branding and Digital Marketing services will help you increase the visibility and reach of your brand. We help your business stand out in the digital marketplace with strategic marketing and interesting content.",
   },
 ];
 
@@ -148,7 +148,7 @@ export const navabar = [
     direction: "/#about",
   },
   {
-    title: "Expertice",
+    title: "Expertise",
     direction: "/#expertice",
   },
   {
