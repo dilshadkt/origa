@@ -4,8 +4,8 @@ export const services = [
   {
     title: "Website Designing",
     image: "/seo.svg",
-    Content:
-      "Just as a warrior needs impeccable strategy and skills to win a battle, your business needs an outstanding website to thrive in the digital arena. At Origa Networks, we specialize in crafting visually stunning and highly functional websites tailored to your unique business needs. From responsive designs to intuitive user experiences, our expert team ensures your online presence captivates and engages your audience, setting you apart from the competition",
+    content:
+      "We craft custom, responsive websites that not only look stunning but also deliver exceptional user experiences across all devices. Our expert team combines cutting-edge technology with strategic design to ensure your site stands out from the competition, effectively showcases your brand, and drives conversions",
     subData: [
       {
         title: "Custom Web Development",
@@ -57,25 +57,8 @@ export const services = [
     title: "AMC",
     image: "/amc.svg",
     content:
-      "Just as strategic positioning is crucial in a battle, SEO is vital for your online visibility. At Origa Networks, we deploy cutting-edge SEO strategies to improve your search engine rankings and drive organic traffic to your website. Our comprehensive approach includes keyword research, on-page optimization, link building, and content creation, ensuring your business ranks highly and attracts the right audience.",
-    subData: [
-      {
-        title: "Keyword Research",
-        desc: "Identifying the best keywords to target for maximum impact.",
-      },
-      {
-        title: "On-Page SEO",
-        desc: "Optimizing your website's content and structure for better search engine visibility.",
-      },
-      {
-        title: "Off-Page SEO",
-        desc: "Building high-quality backlinks to improve your site's authority.",
-      },
-      {
-        title: "Local SEO",
-        desc: "Enhancing your local online presence to attract nearby customers.",
-      },
-    ],
+      "We provide comprehensive website maintenance, swiftly addressing technical issues, resolving bugs, and conducting thorough cross-device testing. Our proactive approach ensures your site remains flawless and functional, enhancing user experience and maintaining your professional online presence.",
+
     descritpion:
       "Our AMC service provides proactive and reactive support for your web applications, mobile apps, ERP solutions, and other IT products. Our experts ensure your systems run smoothly, maintaining optimal performance and avoiding downtime.",
   },
@@ -137,6 +120,28 @@ export const services = [
     image: "/digital.svg",
     content:
       "In the ever-evolving digital landscape, effective marketing is the key to staying ahead. Origa Networks provides comprehensive digital marketing services, including social media management, content marketing, PPC advertising, and email campaigns. Our strategic approach ensures your brand message reaches the right audience, enhancing your online presence and driving business growth.",
+    subData: [
+      {
+        title: "Meta",
+        desc: null,
+      },
+      {
+        title: "Google",
+        desc: null,
+      },
+      {
+        title: "Twitter",
+        desc: null,
+      },
+      {
+        title: "Linked in ",
+        desc: null,
+      },
+      {
+        title: "telegram",
+        desc: null,
+      },
+    ],
     descritpion:
       "Our experienced Branding and Digital Marketing services will help you increase the visibility and reach of your brand. We help your business stand out in the digital marketplace with strategic marketing and interesting content.",
   },
@@ -148,11 +153,11 @@ export const navabar = [
     direction: "/#about",
   },
   {
-    title: "Expertise",
+    title: "Service",
     direction: "/#expertice",
   },
   {
-    title: "Industries",
+    title: "Expertise",
     direction: "/#industries",
   },
   {

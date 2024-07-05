@@ -52,11 +52,10 @@ const Features = () => {
               </div>
               <div className="flex mt-12 flex-col items-center lg:items-end md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  Plan and Develop
+                  Development & Testing
                 </h1>
-                <h2 className="focus:outline-none text-gray-500 mt-3 pl-3 text-center md:text-right text-base leading-6 tracking-wide">
-                  Work closely with our expert team to plan and customize your
-                  project.
+                <h2 className="focus:outline-none text-gray-500 mt-3 pl-3 text-center md:text-left text-base leading-6 tracking-wide">
+                  Coding and Quality Assurance
                 </h2>
               </div>
               <MotiionDiv
@@ -92,11 +91,10 @@ const Features = () => {
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  Get Started
+                  Discovery & Design
                 </h1>
                 <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">
-                  Tell us about your project and goals, and we'll help you
-                  choose the best service package for your needs.
+                  Requirement Gathering, Wireframing, and UI/UX Design
                 </h2>
               </div>
               <MotiionDiv
@@ -131,11 +129,10 @@ const Features = () => {
               </div>
               <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
                 <h1 className="focus:outline-none text-xl font-bold leading-5 text-gray-900">
-                  Launch and Grow
+                  Deployment & Launch
                 </h1>
                 <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">
-                  Our team will continuously optimize and update your services
-                  to ensure maximum performance and growth.
+                  Final Testing and Site Go-Live
                 </h2>
               </div>
             </div>
@@ -152,11 +149,10 @@ const Features = () => {
 
             <div className="mt-10">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
-                Get Started
+                Discovery & Design
               </h1>
               <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">
-                Tell us about your project and goals, and we'll help you choose
-                the best service package for your needs.
+                Requirement Gathering, Wireframing, and UI/UX Design
               </h2>
             </div>
             <Image
@@ -169,11 +165,10 @@ const Features = () => {
             <Image src={"/two.svg"} alt="one" width={50} height={50} />
             <div className="mt-10">
               <h1 className="text-xl tracking-wide text-center leading-5 font-bold text-gray-900">
-                Plan and Develop
+                Development & Testing
               </h1>
-              <h2 className="text-gray-500 mt-3 pl-3 text-center text-base leading-6 tracking-wide">
-                Work closely with our expert team to plan and customize your
-                project.
+              <h2 className="text-gray-500  mt-3 pl-3 text-center text-base leading-6 tracking-wide">
+                Coding and Quality Assurance
               </h2>
             </div>
             <Image
@@ -186,11 +181,10 @@ const Features = () => {
             <Image src={"/three.svg"} alt="one" width={50} height={50} />
             <div className="flex mt-10 flex-col items-center md:items-start md:w-8/12">
               <h1 className="text-xl text-center tracking-wide leading-5 font-bold text-gray-900">
-                Launch and Grow
+                Deployment & Launch
               </h1>
               <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">
-                Our team will continuously optimize and update your services to
-                ensure maximum performance and growth.
+                Final Testing and Site Go-Live
               </h2>
             </div>
           </div>

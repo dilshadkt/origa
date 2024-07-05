@@ -14,7 +14,7 @@ const Industries = () => {
       className="bg-white  py-32 flex flex-col items-center justify-center "
     >
       <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-5 lg:text-3xl px-6  md:px-12 xl:px-0">
-        Enhance Your Productivity with Our Integration Solutions
+        Technologies We Master
       </h2>
       <p className="text-gray-600 max-w-screen-md text-center text-base md:text-[20px] leading-7 md:leading-9 font-light">
         From Web Design and Development to Digital Marketing, we'll boost your
