@@ -116,7 +116,7 @@ export const services = [
       "Expert guidance throughout the ERP development process, including planning, analysis, implementation, and ongoing support to ensure smooth operations.",
   },
   {
-    title: "Digital marketing and branding",
+    title: "Digital Marketing and Branding",
     image: "/digital.svg",
     content:
       "In the ever-evolving digital landscape, effective marketing is the key to staying ahead. Origa Networks provides comprehensive digital marketing services, including social media management, content marketing, PPC advertising, and email campaigns. Our strategic approach ensures your brand message reaches the right audience, enhancing your online presence and driving business growth.",

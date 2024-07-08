@@ -16,10 +16,10 @@ const Industries = () => {
       <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-5 lg:text-3xl px-6  md:px-12 xl:px-0">
         Technologies We Master
       </h2>
-      <p className="text-gray-600 max-w-screen-md text-center text-base md:text-[20px] leading-7 md:leading-9 font-light">
+      {/* <p className="text-gray-600 max-w-screen-md text-center text-base md:text-[20px] leading-7 md:leading-9 font-light">
         From Web Design and Development to Digital Marketing, we'll boost your
         traffic by 50%, generate more leads, and increase sales.
-      </p>
+      </p> */}
       <div className="max-w-screen-xl my-10 mx-auto grid grid-cols-1 px-5  md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
         {industries.map((item, index) => (
           <MotiionDiv
