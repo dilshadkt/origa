@@ -51,14 +51,15 @@ const Contact = () => {
                     We believe digital innovation is at the heart of every
                     business success
                   </h2>
-                  {/* <div className="mt-4 md:mt-8">
+                  <div className="mt-4 md:mt-8">
                     <h2 className="text-sm md:text-base text-btn font-semibold">
                       Address
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      Office #13, NSTP, NUST University H-12 Sector, Islamabad
+                      39/2475-B1, Suite 965, LR Towers, SJRRA 104,South Janatha
+                      Road, Palarivattom, Kochi, Kerala 682025
                     </h2>
-                  </div> */}
+                  </div>
                   <div className="mt-4 md:mt-8">
                     <h2 className="text-sm md:text-base text-btn font-semibold">
                       Contact

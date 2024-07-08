@@ -21,7 +21,7 @@ export default function Home() {
       <Banner />
       <Industries />
       <Features />
-      <Stat />
+      {/* <Stat /> */}
       <ClientLogo />
       <Blogs />
       <Testimonial />
