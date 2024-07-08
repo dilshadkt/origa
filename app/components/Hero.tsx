@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 import { MotiionDiv } from "./shared/MotionDiv";
+import TypingEffect from "./shared/TypingEffect";
 export const variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
@@ -53,11 +54,12 @@ const Hero = () => {
             width={100}
             height={100}
           />
-          {/* <div className="z-50 w-11/12 sm:w-2/3 mb-5 sm:mb-10   mt-28">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white/50 font-bold leading-tight">
+          <div className="z-50 w-11/12 bottom-16 absolute left-16  sm:w-2/3 mb-5 sm:mb-10   mt-28">
+            {/* <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white/50 font-bold leading-tight">
               The Freedom to Create the Pages You Want
-            </h1>
-          </div> */}
+            </h1> */}
+            {/* <TypingEffect /> */}
+          </div>
         </div>
         {/* <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40">
           <MotiionDiv
