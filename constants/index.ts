@@ -2,7 +2,7 @@ import { Content } from "next/font/google";
 
 export const services = [
   {
-    title: "Website Web Development",
+    title: "Web Development",
     image: "/seo.svg",
     content:
       "We craft custom, responsive websites that not only look stunning but also deliver exceptional user experiences across all devices. Our expert team combines cutting-edge technology with strategic design to ensure your site stands out from the competition, effectively showcases your brand, and drives conversions",
