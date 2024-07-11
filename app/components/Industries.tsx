@@ -14,9 +14,9 @@ const Industries = () => {
       id="industries"
       className="bg-white  relative  py-32 flex flex-col items-center justify-center "
     >
-      <div className="  absolute  hidden md:block md:-bottom-[1%] lg:-bottom-[11%]  xl:-bottom-[18%] 2xl:-bottom-[27%]">
+      {/* <div className="  absolute  hidden md:block md:-bottom-[1%] lg:-bottom-[11%]  xl:-bottom-[18%] 2xl:-bottom-[27%]">
         <Robot />
-      </div>
+      </div> */}
       <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-5 lg:text-3xl px-6  md:px-12 xl:px-0">
         Technologies We Master
       </h2>
