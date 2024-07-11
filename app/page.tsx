@@ -14,7 +14,7 @@ import Whatsapp from "./components/Whatsapp";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Hero />
       <About />
       <Services />
@@ -27,6 +27,6 @@ export default function Home() {
       <Testimonial />
       <Contact />
       <Whatsapp />
-    </>
+    </div>
   );
 }

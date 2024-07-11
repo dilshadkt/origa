@@ -6,11 +6,15 @@ const aboutVarients = {
   hidden: { opacity: 0, x: -200 },
   visible: { opacity: 1, x: 0 },
 };
+const aboutVarientsright = {
+  hidden: { opacity: 0, x: 200 },
+  visible: { opacity: 1, x: 0 },
+};
 const About = () => {
   return (
     <section
       id="about"
-      className="bg-white text-black lg:mb-[22%] xl:mb-[10%] 2xl:mb-0"
+      className="bg-white text-black lg:mb-[22%]  overflow-hidden xl:mb-[10%] 2xl:mb-0"
     >
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
@@ -20,9 +24,12 @@ const About = () => {
               initial="hidden"
               whileInView="visible"
               transition={{
+                type: "spring",
+                damping: 10,
+                stiffness: 100,
                 delay: 0.15,
                 ease: "easeInOut",
-                duration: 0.75,
+                duration: 0.25,
               }}
               viewport={{ once: true }}
               className="relative h-64 sm:h-80 lg:h-full"
@@ -38,7 +45,21 @@ const About = () => {
             </MotiionDiv>
           </div>
 
-          <div className="relative flex items-center bg-gray-100">
+          <MotiionDiv
+            variants={aboutVarientsright}
+            initial="hidden"
+            whileInView="visible"
+            transition={{
+              type: "spring",
+              damping: 10,
+              stiffness: 100,
+              delay: 0.15,
+              ease: "easeInOut",
+              duration: 0.25,
+            }}
+            viewport={{ once: true }}
+            className="relative flex items-center bg-gray-100"
+          >
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
@@ -70,7 +91,7 @@ const About = () => {
                 Get in Touch
               </a>
             </div>
-          </div>
+          </MotiionDiv>
         </div>
       </div>
     </section>

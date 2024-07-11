@@ -9,13 +9,48 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Image from "next/image";
+import { MotiionDiv } from "./shared/MotionDiv";
 const Testimonial = () => {
+  const varients = {
+    hidden: {
+      opacity: 0,
+      x: -200,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+    },
+  };
+  const headVarient = {
+    hidden: {
+      opacity: 0,
+      x: -300,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+    },
+  };
   return (
-    <div className="bg-white">
-      <div className="flex items-center justify-between h-full w-full absolute z-0">
+    <div className="bg-white ">
+      <MotiionDiv
+        variants={varients}
+        initial="hidden"
+        whileInView="visible"
+        transition={{
+          type: "spring",
+          damping: 10,
+          stiffness: 100,
+          delay: 0.15,
+          ease: "easeInOut",
+          duration: 0.25,
+        }}
+        viewport={{ once: true }}
+        className="flex items-center justify-between h-full w-full max-w-screen-2xl mx-auto overflow-hidden    absolute z-0"
+      >
         <div className="w-1/3 bg-white h-full" />
         <div className="w-4/6 ml-16 bg-gray-100 h-full" />
-      </div>
+      </MotiionDiv>
       <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
         <CarouselProvider
           naturalSlideWidth={100}
@@ -23,14 +58,29 @@ const Testimonial = () => {
           isIntrinsicHeight={true}
           totalSlides={2}
         >
-          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
-            What our customers are
-            <br />
-            saying
-          </h1>
-          <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">
-            What our customers are saying
-          </h1>
+          <MotiionDiv
+            variants={headVarient}
+            initial="hidden"
+            whileInView="visible"
+            transition={{
+              type: "spring",
+              damping: 10,
+              stiffness: 100,
+              delay: 0.15,
+              ease: "easeInOut",
+              duration: 0.25,
+            }}
+            viewport={{ once: true }}
+          >
+            <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
+              What our customers are
+              <br />
+              saying
+            </h1>
+            <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-gray-800">
+              What our customers are saying
+            </h1>
+          </MotiionDiv>
           <Slider>
             <Slide index={0}>
               <div className="flex">

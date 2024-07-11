@@ -2,7 +2,12 @@ import { blogs } from "@/constants";
 import { nanoid } from "nanoid";
 import Image from "next/image";
 import React from "react";
+import { MotiionDiv } from "./shared/MotionDiv";
 
+const Varients = {
+  hidden: { opacity: 0, x: -300 },
+  visible: { opacity: 1, x: 0 },
+};
 const Blogs = () => {
   return (
     <div className="bg-white py-6 sm:py-8 lg:py-12">
@@ -20,10 +25,22 @@ const Blogs = () => {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
-          {blogs.map((blog) => (
-            <a
+          {blogs.map((blog, index) => (
+            <MotiionDiv
+              variants={Varients}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{
+                type: "spring",
+                damping: 10,
+                stiffness: 100,
+                delay: 0.15 * index,
+                ease: "easeInOut",
+                duration: 0.25,
+              }}
               key={nanoid()}
-              href="#"
+              // href="#"
               className="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
             >
               <Image
@@ -48,7 +65,7 @@ const Blogs = () => {
 
                 <span className="font-semibold text-btn">Read more</span>
               </div>
-            </a>
+            </MotiionDiv>
           ))}
         </div>
       </div>

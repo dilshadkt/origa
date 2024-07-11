@@ -3,6 +3,7 @@ import { nanoid } from "nanoid";
 import Image from "next/image";
 import React from "react";
 import { MotiionDiv } from "./shared/MotionDiv";
+import Robot from "./ui/Robot";
 const serviceVarients = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
@@ -11,8 +12,11 @@ const Industries = () => {
   return (
     <section
       id="industries"
-      className="bg-white  py-32 flex flex-col items-center justify-center "
+      className="bg-white  relative  py-32 flex flex-col items-center justify-center "
     >
+      <div className="  absolute  hidden md:block md:-bottom-[1%] lg:-bottom-[11%]  xl:-bottom-[18%] 2xl:-bottom-[27%]">
+        <Robot />
+      </div>
       <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-5 lg:text-3xl px-6  md:px-12 xl:px-0">
         Technologies We Master
       </h2>
@@ -20,7 +24,7 @@ const Industries = () => {
         From Web Design and Development to Digital Marketing, we'll boost your
         traffic by 50%, generate more leads, and increase sales.
       </p> */}
-      <div className="max-w-screen-xl my-10 mx-auto grid grid-cols-1 px-5  md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
+      <div className=" max-w-screen-xl my-10 mb-24 mx-auto grid grid-cols-1 px-5  md:grid-cols-3 lg:grid-cols-4 gap-6  bg-white w-full">
         {industries.map((item, index) => (
           <MotiionDiv
             variants={serviceVarients}

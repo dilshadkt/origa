@@ -25,9 +25,12 @@ const Features = () => {
                 initial="hidden"
                 whileInView="visible"
                 transition={{
+                  type: "spring",
+                  damping: 10,
+                  stiffness: 100,
                   delay: 0.15,
                   ease: "easeInOut",
-                  duration: 0.75,
+                  duration: 0.25,
                 }}
                 viewport={{ once: true }}
                 aria-label="sign up"
@@ -63,9 +66,12 @@ const Features = () => {
                 initial="hidden"
                 whileInView="visible"
                 transition={{
+                  type: "spring",
+                  damping: 10,
+                  stiffness: 100,
                   delay: 0.15,
                   ease: "easeInOut",
-                  duration: 0.75,
+                  duration: 0.25,
                 }}
                 viewport={{ once: true }}
                 aria-label="transactions"
@@ -102,9 +108,12 @@ const Features = () => {
                 initial="hidden"
                 whileInView="visible"
                 transition={{
+                  type: "spring",
+                  damping: 10,
+                  stiffness: 100,
                   delay: 0.15,
                   ease: "easeInOut",
-                  duration: 0.75,
+                  duration: 0.25,
                 }}
                 viewport={{ once: true }}
                 aria-label="wallet"
