@@ -15,7 +15,7 @@ const ClientLogo = () => {
 
           <Image
             className="cursor-pointer w-16 "
-            src="/logo.svg"
+            src="/delta.png"
             alt="logo"
             width={400}
             height={400}
