@@ -106,18 +106,15 @@ const Testimonial = () => {
                         Some of the best work that was done!
                       </h1>
                       <p className="text-base font-medium leading-6 mt-4 text-gray-600">
-                        Our core values are at the heart of all that we do. They
-                        are integrated into our daily work lives and help us to
-                        remember our customers always comes first, the last
-                        thank you should always comes from us.
+                      Our collaboration with Origa Networks has been nothing short of remarkable. Their commitment to delivering quality, along with their responsive support, has made a significant difference in our business operations
                       </p>
                     </div>
                     <div className="md:mt-0 mt-8">
                       <p className="text-base font-medium leading-4 text-gray-800">
-                        Anna Smith
+                      Ashique
                       </p>
                       <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
-                        Senior Web Designer
+                      CEO, Majees Kitchen
                       </p>
                     </div>
                   </div>
@@ -146,23 +143,20 @@ const Testimonial = () => {
                   <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                     <div>
                       <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">
-                        Some of the best work that was done!
+                      Exceptional Results, Every Time
                       </h1>
                       <p className="text-base font-medium leading-6 mt-4 text-gray-600">
-                        Our core values are at the heart of all that we do. They
-                        are integrated into our daily work lives and help us to
-                        remember our customers always comes first, the last
-                        thank you should always comes from us.
+                      Our collaboration with Origa Networks has been nothing short of remarkable. Their commitment to delivering quality, along with their responsive support, has made a significant difference in our business operations.
                       </p>
                     </div>
                     <div className="md:mt-0 mt-8">
                       <p className="text-base font-medium leading-4 text-gray-800">
-                        Anna Smith
+                        Muhafis
                       </p>
                       <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
-                        Senior Web Designer
+                        CEO, WestBank
                       </p>
-                    </div>
+                    </div>  
                   </div>
                 </div>
               </div>

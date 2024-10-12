@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center mt-7 " aria-label="Home" role="img">
           <Image
             className="cursor-pointer w-16 "
-            src="/logo.svg"
+            src="/origalogo.png"
             alt="logo"
             width={400}
             height={400}

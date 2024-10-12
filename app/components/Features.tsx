@@ -15,7 +15,7 @@ const Features = () => {
     <div className="overflow-y-hidden bg-gray-100">
       <div className="mx-auto container f-f-p px-4 xl:px-0 py-24">
         <h1 className="focus:outline-none text-center text-3xl lg:text-4xl font-extrabold lg:leading-9 tracking-wider text-gray-900">
-          How it works?
+        Our Development process
         </h1>
         <div className="md:mt-24 f-f-p">
           <div className="hidden md:flex justify-center w-full">

@@ -18,9 +18,7 @@ const Blogs = () => {
           </h2>
 
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated.
+          Welcome to our blog, where we share the latest trends in technology, web development, and digital transformation. Discover insights on mobile app development, website design, digital marketing, and more. Stay updated with expert advice and tips to help your business thrive.
           </p>
         </div>
 
