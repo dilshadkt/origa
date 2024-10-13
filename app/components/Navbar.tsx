@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto   px-5 md:px-10 flex items-center justify-between">
         <div className="flex items-center mt-7 " aria-label="Home" role="img">
           <Image
-            className="cursor-pointer w-16 "
+            className="cursor-pointer w-32 "
             src="/origalogo.png"
             alt="logo"
             width={400}

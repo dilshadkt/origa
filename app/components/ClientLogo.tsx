@@ -14,7 +14,7 @@ const ClientLogo = () => {
           <div className="flex justify-center text-gray-400 overflow-hidden">
 
           <Image
-            className="cursor-pointer w-16 "
+            className="cursor-pointer w-16 width-full height-full object-contain"
             src="/delta.png"
             alt="logo"
             width={400}
@@ -29,7 +29,7 @@ const ClientLogo = () => {
           {/* <!-- logo - start --> */}
           <div className="flex justify-center text-gray-400 overflow-hidden">
           <Image
-            className="cursor-pointer w-16 "
+            className="cursor-pointer w-16 width-full height-full object-contain"
             src="/CapitalMarket.svg"
             alt="logo"
             width={400}
@@ -41,7 +41,7 @@ const ClientLogo = () => {
           {/* <!-- logo - start --> */}
           <div className="flex justify-center text-gray-400 overflow-hidden">
           <Image
-            className="cursor-pointer w-16 "
+            className="cursor-pointer w-16 width-full height-full object-contain"
             src="/westbank.jpg"
             alt="logo"
             width={400}
@@ -53,7 +53,7 @@ const ClientLogo = () => {
           {/* <!-- logo - start --> */}
           <div className="flex justify-center text-gray-400 overflow-hidden">
           <Image
-            className="cursor-pointer w-16 "
+            className="cursor-pointer w-16 idth-full height-full object-contain"
             src="/farwish.jpg"
             alt="logo"
             width={400}
