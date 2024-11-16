@@ -42,7 +42,7 @@ const ClientLogo = () => {
           <div className="flex justify-center text-gray-400 overflow-hidden">
           <Image
             className="cursor-pointer w-16 width-full height-full object-contain"
-            src="/westbank.jpg"
+            src="/zyrus.png"
             alt="logo"
             width={400}
             height={400}
