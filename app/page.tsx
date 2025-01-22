@@ -9,7 +9,7 @@ import Hero from "./components/Hero";
 import Industries from "./components/Industries";
 import Services from "./components/Services";
 import Stat from "./components/Stat";
-import Testimonial from "./components/Testimonial";
+// import Testimonial from "./components/Testimonial";
 import Whatsapp from "./components/Whatsapp";
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
       {/* <Stat /> */}
       <ClientLogo />
       <Blogs />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Whatsapp />
     </div>

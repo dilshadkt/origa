@@ -56,8 +56,11 @@ const Contact = () => {
                       Address
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      39/2475-B1, Suite 965, LR Towers, SJRRA 104,South Janatha
-                      Road, Palarivattom, Kochi, Kerala 682025
+                      
+                      Global Buisness Centre, 
+                      Swapnil Enclave, Shanmugham Road Ernakulam, Kerala 682031 India
+
+
                     </h2>
                   </div>
                   <div className="mt-4 md:mt-8">
@@ -68,7 +71,7 @@ const Contact = () => {
                       +91 8129164869 (Phone)
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      +91 8129164869 (Cell)
+                      +91 8078154338 (Cell)
                     </h2>
                   </div>
                   <div className="mt-4 md:mt-8">
@@ -76,7 +79,7 @@ const Contact = () => {
                       Email
                     </h2>
                     <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                      origanetworksllp@gmail.com
+                      info@origanetworks.com
                     </h2>
                   </div>
                 </div>
